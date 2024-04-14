@@ -1,0 +1,27 @@
+{
+    "name": "Python Project",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "containerEnv": {
+        "SHELL": "/bin/bash"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "foxundermoon.shell-format",
+                "GitHub.copilot",
+                "GitHub.copilot-chat"
+            ]
+        },
+        "codespaces": {
+            "repositories": {
+                "linderlake/dotfiles": {
+                    "permissions": "write-all"
+                }
+            }
+        }
+    }
+    // "postCreateCommand": "pip install --no-cache-dir -r requirements.txt"
+}

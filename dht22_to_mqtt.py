@@ -5,7 +5,7 @@ import paho.mqtt.client as mqtt
 import logging
 import os
 
-MQTT_HOST = os.getenv('MQTT_HOST', 'rbpi')
+MQTT_HOST = os.getenv('MQTT_HOST', 'localhost')
 MQTT_PORT = int(os.getenv('MQTT_PORT', 1883))
 DHT22_SENSOR_PIN = int(os.getenv('DHT22_SENSOR_PIN', 4))
 

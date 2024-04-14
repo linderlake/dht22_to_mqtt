@@ -25,7 +25,8 @@ Run the script with Python:
 python dht22_to_mqtt.py
 ```
 
-By default, the script will try to connect to an MQTT server running on localhost and read data from a DHT sensor connected to pin 4. You can configure these settings by setting the following environment variables:
+By default, the script will try to connect to an MQTT server running on localhost and read data from a DHT sensor connected to pin 4 every 20th second.
+You can configure these settings by setting the following environment variables:
 
 - MQTT_HOST: The hostname of the MQTT server.
 - MQTT_PORT: The port number of the MQTT server.
